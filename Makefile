@@ -1,6 +1,6 @@
 # paths
-MODULES = ../../solutions-ergasia1/question9
-INCLUDE = ../../solutions-ergasia1/question9
+MODULES = ../Block-World
+INCLUDE = ../Block-World
 
 # compiler
 CC = gcc
@@ -9,10 +9,10 @@ CC = gcc
 CFLAGS = -Wall -Werror -g -I$(INCLUDE)
 
 # Αρχεία .o
-OBJS = quest9.o $(MODULES)/PRQ.o STACKImplementation.o PQ.o
+OBJS = blockworld.o $(MODULES)/PRQ.o STACKImplementation.o PQ.o
 
 # Το εκτελέσιμο πρόγραμμα
-EXEC = quest9
+EXEC = blockworld
 
 # Παράμετροι για δοκιμαστική εκτέλεση
 ARGS = '(pm, onaz, bc, dfg, e, j)' '(adgpmj, noc, befz)'
